@@ -1,0 +1,11 @@
+name: RankUpMP
+main: dev.anullihate.rankupmp.RankUpMP
+version: ${pom.version}
+api: ["1.0.0"]
+author: anullihate
+
+commands:
+  rankup:
+    description: RankUpMP command
+    usage: "/rankup"
+    permission: rankup.command
